@@ -1,0 +1,4 @@
+administrator'--
+
+Note: Everything after -- is treated as a comment, so the password check is bypassed, allowing authentication to succeed.
+
